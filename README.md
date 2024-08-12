@@ -1,16 +1,17 @@
 <div align="center">
   <a href="https://cloud-station.io">
-    <img src="https://www.cloud-station.io/logo-light.svg" alt="CloudStation Logo" width="200" height="80">
+    <img src="https://server.cloud-station.io/cloudstation/cs_icon.png" alt="CloudStation Logo" width="50">
   </a>
-  <h3 align="center">CloudStation</h3>
+  <h3 align="center">CloudStation Golang Starter</h3>
   <p align="center">
     Deploy your Golang application seamlessly with CloudStation.
     <br />
-    <a href="https://cloud-station.io">Visit CloudStation</a>·
-    <a href="https://documentation.cloud-station.io/s/ce6e8846-8aec-4337-a850-5188b6dc6d6e">Documentation</a>·
+    <a href="https://cloud-station.io">Visit CloudStation</a> ·
+    <a href="https://documentation.cloud-station.io/s/ce6e8846-8aec-4337-a850-5188b6dc6d6e">Documentation</a> ·
     <a href="https://blog.cloud-station.io">Blog</a>
   </p>
 </div>
+
 
 ## Overview
 
@@ -41,8 +42,6 @@ Click the Fork button at the top-right of this repository to create your own cop
 
 CloudStation uses [Nixpacks](https://nixpacks.com/docs/getting-started), a build system that automatically detects the programming language and framework of your application. For this Go application, Nixpacks  identifies it as a Go project and manages the entire build process seamlessly. This eliminates the need for a Dockerfile, simplifying the deployment workflow and reducing the setup time.
 
-#### Port Configuration
-This Golang application runs on port 3000. CloudStation uses port 3000 by default for deployed applications, so no changes are needed in the application configuration.
 
 ### Access Your Application:
 Once deployed, your application will be accessible at https://golang-example.cloud-station.app.
